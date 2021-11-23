@@ -47,5 +47,5 @@ Pod::Spec.new do |spec|
   spec.user_target_xcconfig     = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 arm64e armv7 armv7s', 'EXCLUDED_ARCHS[sdk=iphoneos*]' => 'i386 x86_64' }
 
   spec.dependency 'HyBid', '2.8.0'
-  spec.dependency 'IronSourceSDK', '~> 7.1.0'
+  spec.dependency 'IronSourceSDK', '~> 7.1.0', :modular_headers => true
 end
