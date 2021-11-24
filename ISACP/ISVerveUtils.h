@@ -20,7 +20,7 @@
 //  THE SOFTWARE.
 //
 
-#import <IronSource/ISAdData.h>
+#import "IronSource/ISAdData.h"
 
 @interface ISVerveUtils : NSObject
 
